@@ -1,0 +1,32 @@
+# Firmware projects are maintained in their own repositories.
+/hello_world/
+/espidf/
+/projects/
+
+# PlatformIO build outputs and downloaded dependencies
+.pio/
+.pioenvs/
+.piolibdeps/
+
+# Machine-specific compilation database and clangd index
+compile_commands.json
+.cache/
+
+# Local editor state and backups
+.vscode/
+*.swp
+*.swo
+*~
+*.backup
+nvim.log
+
+# Local environment and credentials
+.env
+.env.*
+!.env.example
+!.env.sample
+
+# OS-generated files
+.DS_Store
+Thumbs.db
+Desktop.ini
